@@ -16,8 +16,8 @@ To use MMM-Keypress, add it to the modules array in the config/config.js file of
   position: "bottom_right",
   config: {
     notifications: [
-      {key: "D", notification: "ARTICLE_NEXT", payload: {greeting: "Hello from A"}},
-      {key: "A", notification: "ARTICLE_PREVIOUS", payload: {greeting: "Hello from A"}}
+      {key: "D", notification: "ARTICLE_NEXT"},
+      {key: "A", notification: "ARTICLE_PREVIOUS"}
     ]
   }
 },
