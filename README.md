@@ -5,10 +5,6 @@ MMM-Keypress is a module for the MagicMirror² project by Michael Teeuw. It allo
 
 ## Installation
 
-1. Navigate to your MagicMirror's `modules` directory using the command:
-   ```shell
-   
-   ```
 Clone the MMM-Keypress repository:
 ```shell
 cd ~/MagicMirror/modules
