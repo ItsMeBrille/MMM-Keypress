@@ -5,12 +5,20 @@ Module.register("MMM-Keypress", {
     ]
   },
 
+
   start: function () {
 
     Log.info(`Starting module: ${this.name}`);
 
     document.addEventListener("keydown", this.sendNotifications.bind(this));
   },
+
+
+  getDom: function () {
+    const wrapper = document.createElement("div");
+    return wrapper;
+  },
+
 
   sendNotifications: function (event) {
     const key = event.key.toUpperCase();
@@ -23,4 +31,5 @@ Module.register("MMM-Keypress", {
       this.sendNotification(matchingNotification.notification, undefined);
     }
   }
+
 });
