@@ -25,8 +25,9 @@ To use MMM-Keypress, add it to the modules array in the config/config.js file of
 ```
 The example above is used to control the default newsfeed module. You can customize the notifications array with the desired key-to-notification mappings. Each element with the following properties:
 
-* key: The key to listen for (e.g., "A", 66, "67"). You can use both *key*, *keyCode* and *code* attributes.
-* notification: The name of the notification to send when the key is pressed.
+* `key` (int, String): The key to listen for (e.g., "A", 66, "67"). You can use both *key*, *keyCode* and *code* attributes.
+* `notification` (String): The name of the notification to send when the key is pressed.
+* `payload` (JSON) *(optional)*: Payload for the notification
 
 ### Keycodes
 List of keycodes for the most common keys
