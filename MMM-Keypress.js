@@ -1,7 +1,8 @@
 Module.register("MMM-Keypress", {
   defaults: {
     notifications: [
-      {key: "39", notification: "ARTICLE_NEXT"}
+      {key: 39, notification: "ARTICLE_NEXT"},
+      {key: 37, notification: "ARTICLE_PREVIOUS"}
     ]
   },
 
