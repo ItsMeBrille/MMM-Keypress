@@ -18,7 +18,7 @@ To use MMM-Keypress, add it to the modules array in the config/config.js file of
     notifications: [
       {key: 39, notification: "ARTICLE_NEXT"},
       {key: "P", notification: "ARTICLE_PREVIOUS"},
-      {key: "Numpad0", notification: "ARTICLE_TOGGLE_FULL"}
+      {key: "Numpad0", notification: "SHOW_HIDDEN_PAGE", payload: "minimal"}
     ]
   }
 },
@@ -27,7 +27,7 @@ The example above is used to control the default newsfeed module. You can custom
 
 * `key` (int, String): The key to listen for (e.g., "A", 66, "67"). You can use both *key*, *keyCode* and *code* attributes.
 * `notification` (String): The name of the notification to send when the key is pressed.
-* `payload` (JSON) *(optional)*: Payload for the notification
+* `payload` (JSON): Optional payload for the notification. 
 
 ### Keycodes
 List of keycodes for the most common keys
