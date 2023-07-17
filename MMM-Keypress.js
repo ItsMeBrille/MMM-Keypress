@@ -24,8 +24,9 @@ Module.register("MMM-Keypress", {
   sendNotifications: function (event) {
     const key = event.key.toUpperCase();
     const keyCode = event.keyCode;
+    const code = event.code;
     const matchingNotification = this.config.notifications.find(
-      (notification) => notification.key === key || notification.key == keyCode
+      (notification) => notification.key === keyCode || notification.key == key || notification.key == code
     );
 
     if (matchingNotification) {

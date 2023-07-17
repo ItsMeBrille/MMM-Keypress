@@ -1,5 +1,5 @@
 # MMM-Keypress
-MMM-Keypress is a module for the MagicMirror² project by Michael Teeuw. It allows you to send notifications to other modules based on the keys pressed on your keyboard.
+MMM-Keypress is a module for the MagicMirror² project by Michael Teeuw. It allows you to send notifications to other modules based on the keys pressed on your keyboard or numpad etc.
 
 ## Installation
 Clone the MMM-Keypress repository:
@@ -24,7 +24,7 @@ To use MMM-Keypress, add it to the modules array in the config/config.js file of
 ```
 You can customize the notifications array with the desired key-to-notification mappings. Each element with the following properties:
 
-* key: The key to listen for (e.g., "A", 66, "67").
+* key: The key to listen for (e.g., "A", 66, "67"). You can use both *key*, *keyCode* and *code* attributes.
 * notification: The name of the notification to send when the key is pressed.
 
 ### Keycodes
@@ -43,6 +43,8 @@ List of keycodes for the most common keys
 | `Arrow Right`| 39      |
 | `Arrow Down` | 40      |
 | 0-9          | 48-57   |
+
+When mapping the numpad using the keyCode is not recommended as it depends on whether or not NumLock is pressed. Therefore the *code* attribute fits better for that application.
 
 ## Dependencies
 * MagicMirror² (version 2.12.0 or higher)
