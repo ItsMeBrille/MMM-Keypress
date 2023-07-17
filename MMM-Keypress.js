@@ -6,13 +6,17 @@ Module.register("MMM-Keypress", {
   },
 
   start: function () {
+
+    Log.info(`Starting module: ${this.name}`);
+
     document.addEventListener("keydown", this.sendNotifications.bind(this));
   },
 
   sendNotifications: function (event) {
     const key = event.key.toUpperCase();
+    const keyCode = event.keyCode;
     const matchingNotification = this.config.notifications.find(
-      (notification) => notification.key === key
+      (notification) => notification.key === key || notification.key == keyCode
     );
 
     if (matchingNotification) {
