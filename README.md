@@ -46,10 +46,12 @@ List of keycodes for the most common keys
 | `Arrow Down` | 40      |
 | 0-9          | 48-57   |
 
-When mapping the numpad using the keyCode is not recommended as it depends on whether or not NumLock is pressed. Therefore the *code* attribute fits better for that application.
+For the numbers 0 to 9 use of *keyCode* is required. 0 corresponds to 48, 1 to 49 and so on.
+
+When mapping the numpad using the *keyCode* is not recommended as it depends on whether or not NumLock is pressed. Therefore the *code* attribute fits better for that application: `Numpad0`
 
 ## Dependencies
-* MagicMirror² (version 2.12.0 or higher)
+* MagicMirror² (not tested on versions below 2.12.0)
 
 ## License
 MMM-Keypress is licensed under the [MIT License](LICENSE).
