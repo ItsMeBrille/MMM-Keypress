@@ -25,7 +25,7 @@ To use MMM-Keypress, add it to the modules array in the config/config.js file of
 ```
 The example above is used to control the default newsfeed module. You can customize the notifications array with the desired key-to-notification mappings. Each element with the following properties:
 
-* `key` (int, String): The key to listen for (e.g., "A", 66, "67"). You can use both *key*, *keyCode* and *code* attributes.
+* `key` (int, String): The key to listen for (e.g., "A", 66, "67"). You can use both *key*, *keyCode*, *code* and *mouse scroll* events.
 * `notification` (String): The name of the notification to send when the key is pressed.
 * `payload` (JSON): Optional payload for the notification. 
 
@@ -49,6 +49,9 @@ List of keycodes for the most common keys
 For the numbers 0 to 9 use of *keyCode* is required. 0 corresponds to 48, 1 to 49 and so on.
 
 When mapping the numpad using the *keyCode* is not recommended as it depends on whether or not NumLock is pressed. Therefore the *code* attribute fits better for that application: `Numpad0`
+
+### Mouse scrolling
+The module does also support mouse scrolling events. The syntax for mouse scrolling is `MOUSE_SCROLL_DOWN` and `MOUSE_SCROLL_UP`, also written in the `key` property.
 
 ## Dependencies
 * MagicMirror² (not tested on versions below 2.12.0)
