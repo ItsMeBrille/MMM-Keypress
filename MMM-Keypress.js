@@ -12,7 +12,7 @@ Module.register("MMM-Keypress", {
     Log.info(`Starting module: ${this.name}`);
 
     // Add event listeners for both "keydown" and "scroll wheel" events
-    document.addEventListener("keydown", this.sendNotifications.bind(this));
+    document.addEventListener("keydown", this.handleKeyEvent.bind(this));
     document.addEventListener("wheel", this.handleWheelEvent.bind(this));
   },
 
@@ -22,7 +22,7 @@ Module.register("MMM-Keypress", {
     return wrapper;
   },
 
-  sendNotifications: function (event) {
+  handleKeyEvent: function (event) {
     // Extract key information from the event
     const key = event.key.toUpperCase();
     const keyCode = event.keyCode;
