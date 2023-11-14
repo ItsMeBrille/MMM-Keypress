@@ -3,7 +3,6 @@ Module.register("MMM-Keypress", {
     notifications: [
       { key: 39, notification: "ARTICLE_NEXT" }, // Key code 39 corresponds to the right arrow key
       { key: 37, notification: "ARTICLE_PREVIOUS" }, // Key code 37 corresponds to the left arrow key
-      { key: "MOUSE_SCROLL_UP", notification: "ARTICLE_NEXT" }, // Mouse scroll up
     ]
   },
 
