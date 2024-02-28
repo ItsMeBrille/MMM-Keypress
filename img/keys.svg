@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+  As this MagicMirror² module runs in the background, there is no screenshot. For a nicer
+  appearance in module lists, this image can be used instead of a screenshot.
+
+  Source:  https://openclipart.org/detail/211393/keyboard-keys
+  License: Public Domain
+-->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" id="svg2" sodipodi:docname="_svgclean2.svg" viewBox="0 0 196 162" version="1.1" inkscape:version="0.48.3.1 r9886">
+  <sodipodi:namedview id="namedview18" bordercolor="#666666" inkscape:pageshadow="2" guidetolerance="10" pagecolor="#ffffff" gridtolerance="10" inkscape:window-maximized="0" inkscape:zoom="0.22425739" objecttolerance="10" borderopacity="1" inkscape:current-layer="svg2" inkscape:cx="372.04724" inkscape:cy="-364.18109" inkscape:window-y="0" inkscape:window-x="0" inkscape:window-width="640" showgrid="false" inkscape:pageopacity="0" inkscape:window-height="480"/>
+  <path id="path4" inkscape:connector-curvature="0" d="m10.5 76-6.5 16-4 52c0 5 3 8 8 8h80c5 0 8-3 8-8l-4-52-6.5-16 2.5 47 5 25-6.5-16.5c-1-2.5-2.5-3.5-4.5-3.5h-68c-2 0-3.5 1-4.5 3.5l-6.5 16.5 5-25zm9.5-6c-4.5 0-6.5 2.5-6.5 6l-2 42c0 4 2.5 6 6.5 6h60c4 0 6.5-2 6.5-6l-2-42c0-3.5-2-6-6.5-6z"/>
+  <path id="path6" inkscape:connector-curvature="0" d="m64 58c-2 0-3.5 1-4.5 3.5l-1.4 3.5h16.9c7 0 11 0 18 17h15c3.5-6.1 7-7 11-7h22.8l-5.3-13.5c-1-2.5-2.5-3.5-4.5-3.5zm71.5-52 2.5 47 4.4 22h3.6l-4-53zm-75 0-6.5 16-3.3 43h4.9l2.4-12zm9.5-6c-4.5 0-6.5 2.5-6.5 6l-2 42c0 4 2.5 6 6.5 6h60c4 0 6.5-2 6.5-6l-2-42c0-3.5-2-6-6.5-6z"/>
+  <path id="path8" inkscape:connector-curvature="0" d="m110.5 86-6.5 16-4 52c0 5 3 8 8 8h80c5 0 8-3 8-8l-4-52-6.5-16 2.5 47 5 25-6.5-16.5c-1-2.5-2.5-3.5-4.5-3.5h-68c-2 0-3.5 1-4.5 3.5l-6.5 16.5 5-25zm9.5-6c-4.5 0-6.5 2.5-6.5 6l-2 42c0 4 2.5 6 6.5 6h60c4 0 6.5-2 6.5-6l-2-42c0-3.5-2-6-6.5-6z"/>
+  <path id="path10" style="fill:#ffffff" inkscape:connector-curvature="0" d="m24 104v-26h23c3.5 0 6 1.5 6 4.5v3.5c0 2.5-1.5 3.5-3 4 2.5 0.5 4 2 4 4.5v5c0 3-2.5 4.5-6 4.5zm7-4h14.5c1 0 1.5-0.5 1.5-1v-6c0-0.5-0.5-1-1.5-1h-14.5zm0-12h13.5c1 0 1.5-0.5 1.5-1v-4c0-0.5-0.5-1-1.5-1h-13.5z"/>
+  <path id="path12" style="fill:#ffffff" inkscape:connector-curvature="0" d="m74 8v26h27v-4h-20v-22z"/>
+  <path id="path14" style="fill:#ffffff" inkscape:connector-curvature="0" d="m135.5 88-13.5 26h7.5l3.5-7h14l3.5 7h7.5l-13.5-26h-9zm4.5 5 5 10h-10l5-10z"/>
+  <metadata id="metadata16">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+<div xmlns="" id="divScriptsUsed" style="display: none"/><script xmlns="" id="globalVarsDetection" src="moz-extension://42fb4f7b-3a14-435f-8686-ff09730859f7/js/wrs_env.js"/></svg>
