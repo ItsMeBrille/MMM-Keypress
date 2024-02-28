@@ -18,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/ItsMeBrille/MMM-Keypress/issues"
   },
-  "homepage": "https://github.com/ItsMeBrille/MMM-Keypress"
+  "homepage": "https://github.com/ItsMeBrille/MMM-Keypress",
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@stylistic/eslint-plugin": "latest",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "globals": "latest"
+  },
+  "scripts": {
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write .",
+    "test": "npm run lint"
+  }
 }
