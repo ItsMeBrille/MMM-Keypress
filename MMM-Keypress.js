@@ -38,9 +38,7 @@ Module.register("MMM-Keypress", {
 
   handleWheelEvent (event) {
     // Determine the direction of the mouse scroll
-    const scrollDirection = event.deltaY > 0
-      ? "MOUSE_SCROLL_DOWN"
-      : "MOUSE_SCROLL_UP";
+    const scrollDirection = event.deltaY > 0 ? "MOUSE_SCROLL_DOWN" : "MOUSE_SCROLL_UP";
 
     // Find a matching notification based on the scroll direction
     const matchingNotification = this.config.notifications.find((notification) => notification.key === scrollDirection);
