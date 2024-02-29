@@ -1,5 +1,5 @@
 {
-  "name": "mmm-keypress",
+  "name": "MMM-Keypress",
   "version": "1.0.0",
   "description": "MMM-Keypress is a module for the MagicMirror² project by Michael Teeuw. It allows you to send notifications to other modules based on the keys pressed on your keyboard or numpad etc.",
   "main": "MMM-Keypress.js",
@@ -8,7 +8,7 @@
     "url": "https://github.com/ItsMeBrille/MMM-Keypress.git"
   },
   "keywords": [
-    "MagicMirror",
+    "Magic Mirror",
     "numpad",
     "remote control",
     "keyboard"
