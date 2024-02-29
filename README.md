@@ -71,9 +71,3 @@ The module does also support mouse scrolling events. The syntax for mouse scroll
 ## License
 
 MMM-Keypress is licensed under the [MIT License](LICENSE).
-
-## Developer commands
-
-- `npm install` - Install devDependencies (for linter and formatter).
-- `npm run lint` - Run linting and formatter checks.
-- `npm run lint:fix` - Fix linting and formatter issues.
