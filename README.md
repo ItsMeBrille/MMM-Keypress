@@ -65,9 +65,9 @@ Mapping the keys at the numpad using *keyCode* is not recommended as it depends 
 The module also supports listening for mouse clicks and scrolling events. The used key to listen for this event, also written in the *key* property, are: 
   * `"MOUSE_SCROLL_DOWN"`
   * `"MOUSE_SCROLL_UP"`
-  * `"MOUSE_LEFT_CLICK"`
-  * `"MOUSE_MIDDLE_CLICK"`
-  * `"MOUSE_RIGHT_CLICK"`
+  * `"LEFT_CLICK"`
+  * `"MIDDLE_CLICK"`
+  * `"RIGHT_CLICK"`
 
 ## License
 
