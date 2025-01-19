@@ -55,6 +55,8 @@ Module.register("MMM-Keypress", {
     let mouseButton;
     if (event.button === 0) {
       mouseButton = "LEFT_CLICK";
+    } else if (event.button === 1) {
+      mouseButton = "MIDDLE_CLICK";
     } else if (event.button === 2) {
       mouseButton = "RIGHT_CLICK";
     } else {
