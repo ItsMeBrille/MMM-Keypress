@@ -60,9 +60,14 @@ For the number keys `0` to `9` the use of *keyCode* is required. `0` corresponds
 
 Mapping the keys at the numpad using *keyCode* is not recommended as it depends on whether or not the `NumLock` key is pressed. Therefore the *code* attribute fits better for that application: `Numpad0`, `Numpad1` etc.
 
-### Mouse scrolling
+### Mouse clicks & scrolling
 
-The module also supports listening for mouse scrolling events. The used key to listen for this event is `"MOUSE_SCROLL_DOWN"` and `"MOUSE_SCROLL_UP"`, also written in the *key* property.
+The module also supports listening for mouse clicks and scrolling events. The used key to listen for this event, also written in the *key* property, are: 
+  * `"MOUSE_SCROLL_DOWN"`
+  * `"MOUSE_SCROLL_UP"`
+  * `"LEFT_CLICK"`
+  * `"MIDDLE_CLICK"`
+  * `"RIGHT_CLICK"`
 
 ## License
 
